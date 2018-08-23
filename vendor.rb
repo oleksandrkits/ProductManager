@@ -4,6 +4,6 @@ class Vendor
 
   def initialize(name, products)
     @name = name
-    @products = products
+    @products = Array(products)
   end
 end
